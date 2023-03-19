@@ -1,0 +1,84 @@
+.Main{width: 100%;
+background-color: black;
+color:white;
+text-align: center;
+}
+.Menu-Sub-Main{
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    background-color:#01539d;
+}
+.Menu-Sub-Main-Btn{
+    padding: 10px;
+    padding-right: 20px;
+    color: #eea47f;
+    text-decoration: none;
+    font-size: 90%;
+}
+.Menu-Sub-Main-Btn:hover{
+    background-color: #eea47f;
+    color: #01539d;
+}
+
+#Menu-btn{
+   display:none;
+
+}
+.Footer{
+text-align: center;
+}
+.Footer-Main{text-align: center;}
+.Footer-Main-Social{display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#icon{width: 30px;height: 30px};
+.Footer-Main-Social-Icon{
+}
+@media only screen and (max-width: 700px) {
+    .Menu-Sub-Main{
+      flex-direction: column;
+      display: none;
+    }
+    #Menu-btn{
+   display:block;
+    }
+}
+* {box-sizing:border-box}
+p1{font-size: 150%;}
+#heading-all{	margin: 1em 0 0.5em 0;
+	color: red;
+	font-weight: normal;
+	font-family: 'Ultra', sans-serif;   
+	font-size: 36px;
+	line-height: 42px;
+	text-transform: uppercase;
+	text-shadow: 0 2px yellow, 0 5px aquamarine;}
+.table-all{  margin-left: auto;
+    margin-right: auto;}
+    .Event_Notice-Box-p{  font-family: "Lucida Console", Courier, monospace;}
+    .Event_Notice-Box-d,.Course-Hangout a{
+        font-family: serif;
+        color: transparent;
+        text-align: center;
+        animation: effect 2s linear infinite;
+     }
+ 
+    @keyframes effect {
+        0% {
+            background: linear-gradient(
+                #008000, #00FF00);
+            -webkit-background-clip: text;
+        }
+ 
+        100% {
+            background: linear-gradient(
+                #3CE7D7, #000FFF);
+            -webkit-background-clip: text;
+        }
+      }
+
+      .Course-Hangout a{text-decoration: none;}
+      #paragraph-all{font-family: "Lucida Console", Courier, monospace;font-size: 120%;}
